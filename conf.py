@@ -6,11 +6,11 @@ extensions = [
 ]
 
 # Basic HTML theme
-html_theme = "sphinx_material"
+html_theme = "alabaster"
 
 # Enable Thebe
 thebe_config = {
-    "repository_url": "https://github.com/yourusername/yourrepo",  # where your docs live
+    "repository_url": "https://github.com/EliFarrer/test_EMC2DEV",  # where your docs live
     "binderhub_url": "https://mybinder.org",
     "branch": "main",
     "kernel_name": "python3",
