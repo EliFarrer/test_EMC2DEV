@@ -10,7 +10,7 @@ html_theme = "alabaster"
 
 # Enable Thebe
 thebe_config = {
-    "repository_url": "https://github.com/EliFarrer/my-first-binder",  # where your docs live
+    "repository_url": "https://github.com/EliFarrer/sphinx_thebe",  # where your docs live
     "binderhub_url": "https://mybinder.org",
     "branch": "main",
     "kernel_name": "python3",

@@ -1,4 +1,4 @@
-name: test_emc2dev
+name: sphinx_thebe
 channels:
   - defaults
   - conda-forge
