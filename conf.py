@@ -10,9 +10,13 @@ html_theme = "alabaster"
 
 # Enable Thebe
 thebe_config = {
-    "repository_url": "https://github.com/EliFarrer/test_EMC2DEV",  # where your docs live
+    "repository_url": "https://github.com/EliFarrer/my-first-binder",  # where your docs live
     "binderhub_url": "https://mybinder.org",
     "branch": "main",
     "kernel_name": "python3",
-    "selector": "div.cell",  # This matches jupyter-sphinx cells
+    "selector": "div.jupyter_cell",  # This matches jupyter-sphinx cells
 }
+
+thebe_default_button = True
+thebe_activate = True
+thebe_enable = True
